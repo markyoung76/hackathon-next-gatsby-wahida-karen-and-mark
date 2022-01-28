@@ -4,11 +4,6 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
-    {
-      resolve: "gatsby-plugin-antd",
-      options: {
-        style: true,
-      },
-    },
-  ],
+    'gatsby-plugin-antd'
+  ]
 };
