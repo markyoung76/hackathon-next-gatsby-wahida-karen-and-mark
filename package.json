@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-duck-api-generator",
+  "name": "gatsby-cat-api-generator",
   "version": "1.0.0",
   "private": true,
-  "description": "Gatsby Duck API Generator",
+  "description": "Gatsby Cat API Generator",
   "author": "Mark Young",
   "keywords": [
     "gatsby"

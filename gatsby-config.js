@@ -1,9 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Duck API Generator`,
+    title: `Gatsby Cat API Generator`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [
-    'gatsby-plugin-antd'
-  ]
+  plugins: ["gatsby-plugin-antd"],
 };

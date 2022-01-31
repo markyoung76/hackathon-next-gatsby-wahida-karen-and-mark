@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "gatsby";
 import { Button } from "antd";
 
 // styles
@@ -18,6 +17,19 @@ const bkgdImage = {
   height: "100vh",
   width: "100vw",
 };
+
+// const outset = {
+//   height: "800px",
+//   width: "1400px",
+//   display: "flex",
+//   flexDirection: "column",
+//   justifyContent: "center",
+//   alignItems: "center",
+//   borderStyle: "solid",
+//   borderColor: "#20b2aa",
+//   borderWidth: "20px",
+//   borderRadius: "15px 15px 15px 15px",
+// };
 
 const heading = {
   color: "#20b2aa",
@@ -72,14 +84,16 @@ const ApiPage = () => {
     <div style={bkgdImage}>
       <main style={homepage}>
         <title>API Cat Image Generator</title>
+        {/* <container style={outset}> */}
         <h1 style={heading}>Random Cat Image Generator</h1>
         <p style={subheading}>Hi there! Have kittens, get clickin'</p>
         <img style={catpicture} src={`${cat}`} alt="cat img"></img>
         <div style={buttondiv}>
-          <Button style={button} type="secondary" onClick={()=> getCat()}>
+          <Button style={button} type="secondary" onClick={() => getCat()}>
             More Cats
           </Button>
         </div>
+        {/* </container> */}
       </main>
     </div>
   );
