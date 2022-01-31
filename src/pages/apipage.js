@@ -76,8 +76,8 @@ const ApiPage = () => {
         <p style={subheading}>Hi there! Have kittens, get clickin'</p>
         <img style={catpicture} src={`${cat}`} alt="cat img"></img>
         <div style={buttondiv}>
-          <Button style={button} type="secondary">
-            <Link to="/apipage">More Cats</Link>
+          <Button style={button} type="secondary" onClick={()=> getCat()}>
+            More Cats
           </Button>
         </div>
       </main>
